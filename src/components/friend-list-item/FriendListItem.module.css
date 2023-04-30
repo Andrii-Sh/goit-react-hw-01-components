@@ -1,9 +1,8 @@
 .status {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
-    outline: 1px solid red;
     background-color: red;
 }
 
@@ -12,9 +11,14 @@
 }
 
 .avatar {
-
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid #80e08e;
+    background-color: #80e08e;
 }
 
 .name {
-
+    font-size: 35px;
+    font-weight: 600;
 }
