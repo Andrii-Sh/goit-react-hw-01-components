@@ -1,7 +1,10 @@
 import { Profile } from "./profile/Profile";
 import { Statistics } from "./statistics/Statistics";
+import { FriendList } from "./friend-list/FriendList";
+
 import user from "../data/user.json";
 import statistics from "../data/statistics.json";
+import friends from "../data/friends.json";
 
 const { username, tag, location, avatar, stats } = user
 
@@ -31,6 +34,9 @@ export const App = () => {
         title="upload stats"
         stats={ statistics }
       />
+      <FriendList
+        friends={friends}>
+      </FriendList>
       {/* React homework template */}
     </div>
   );
